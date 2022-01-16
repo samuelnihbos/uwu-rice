@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-<img src="https://img.shields.io/github/license/samuelnihbos/uwu-rice&color=critical"> <img src="https://img.shields.io/github/issues/samuelnihbos/uwu-rice">
+<img src="https://img.shields.io/github/license/samuelnihbos/uwu-rice"> <img src="https://img.shields.io/github/issues/samuelnihbos/uwu-rice">
 </p>
 
 # Screenshot
