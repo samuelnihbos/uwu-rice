@@ -24,6 +24,7 @@
 - Terminal i use : alacritty
 - I personally use 7 workspaces, you can change amount of workspace as you like
 - You need to copy all the folder inside the dots repo to your ~/.config, then do ```chmod +x ~/.config/bspwm/*``` to make bspwm loads the configuration
+- You may need my [dmenu](https://github.com/samuelnihbos/dmenu-samuel) build
 
 # Credits
 
