@@ -26,7 +26,7 @@ window:
   multiplier: 3
 
 ## Background opacity
-background_opacity: 1.0
+window_opacity: 1.0
 
 # If `true`, bold text is drawn using the bright color variants.
 draw_bold_text_with_bright_colors: true
