@@ -18,13 +18,13 @@ super + h
 super + x
     dm-logout
 
-#alacritty
+#terminal
 super + Return
-    alacritty
+    kitty
 
-#alacritty, but floating
+#terminal, but floating
 super + shift + Return
-	bspc rule -a alacritty -o state=floating follow=on center=true rectangle=490x310+0+0 && alacritty
+	bspc rule -a kitty -o state=floating follow=on center=true rectangle=490x310+0+0 && kitty
 
 #reload sxhkd
 super + shift + s
@@ -49,13 +49,26 @@ super + alt + shift + {h,j,k,l}
 #toggle floating
 super + f
 	bspc node -t "~"{floating,tiled}
+
+#dm-confedit
+super + d 
+  dm-confedit
+
+#emacs
+super + m
+  emacsclient -c -a 'emacs'
+
+#nitrogen
+super + shift + n
+  nitrogen
 #################################################################
 # SUPER + SHIFT KEYS
 #################################################################
 
 #dmenu
 super + shift + d
-	dmenu_run -bw 2 -l 20 -g 4 -p 'Run:'
+#	dmenu_run -bw 2 -l 20 -g 4 -p 'Run:'
+        dmenu_run -i -c -l 20 -p 'Run:' 
 
 #shift to workspace
 super + shift + {1-9,0}
